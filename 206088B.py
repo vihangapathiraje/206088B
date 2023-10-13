@@ -5,7 +5,7 @@ def identify_numbers_and_texts(input_string):
     number_pattern = r'\d+'
     text_pattern = r'[A-Za-z]+'
 
-    
+   
     numbers = re.findall(number_pattern, input_string)
     texts = re.findall(text_pattern, input_string)
 
@@ -17,3 +17,4 @@ if __name__ == "__main__":
 
     print("Numbers found: ", numbers)
     print("Texts found: ", texts)
+
